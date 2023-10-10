@@ -77,4 +77,6 @@ public class Construissa {
             }catch (SQLException ex) {
             JOptionPane.showMessageDialog(null, "Error en la conexion" + ex.getMessage());
         }
-    }}
+    }
+    //veo si puedo sacar este!!
+}
