@@ -74,7 +74,7 @@ public class Construissa {
 //           int filas= ps.executeUpdate();
 //           if(filas>0){
 
-//           JOptionPane.showMessageDialog(null,"Alumno agregado");}
+//           JOptionPane.showMessageDialog(null,"Empleado agregado");}
 
 
 //
