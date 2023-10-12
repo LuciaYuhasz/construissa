@@ -1,7 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ Desde el método main de un nuevo proyecto Java de nombre construirSA:
+
+Cargar el driver MariaDB.
+Establecer la conexión a la base de datos previamente creada.
+Insertar 3 empleados.
+Insertar 2 herramientas.
+Listar todas las herramientas con stock superior a 10.
+Dar de baja al primer empleado ingresado a la base de datos.
  */
 package construissa;
 
@@ -74,6 +79,9 @@ public class Construissa {
 //                 JOptionPane.showMessageDialog(null, "Herramienta agregada");
 //             }
 //
+
+ //               LISTAS TODAS LAS HERRAMIENTAS CON STOCK SUPERIOR A 10
+ 
 //             String sql = "SELECT `idHerramienta`, `nombre`, `descripcion`, `stock`, `estado` FROM `herramienta`"
 //                     + "WHERE stock > 10";
 //             PreparedStatement ps = con.prepareStatement(sql);
