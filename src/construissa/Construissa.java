@@ -46,13 +46,13 @@ public class Construissa {
 //           JOptionPane.showMessageDialog(null,"Empleado agregado");}
            
         //3)  
-         String sql="insert into empleado (dni,apellido,nombre,acceso,estado)"
-                    +"values(26584125,'Fernandez','Camila','1',true)";
-           PreparedStatement ps= con.prepareStatement(sql);
-           
-           int filas= ps.executeUpdate();
-           if(filas>0){
-           JOptionPane.showMessageDialog(null,"Empleado agregado");}
+//         String sql="insert into empleado (dni,apellido,nombre,acceso,estado)"
+//                    +"values(26584125,'Fernandez','Camila','1',true)";
+//           PreparedStatement ps= con.prepareStatement(sql);
+//           
+//           int filas= ps.executeUpdate();
+//           if(filas>0){
+//           JOptionPane.showMessageDialog(null,"Empleado agregado");}
            
            
 //       2)
@@ -71,6 +71,16 @@ public class Construissa {
 //           int filas= ps.executeUpdate();
 //           if(filas>0){
 //           JOptionPane.showMessageDialog(null,"Alumno agregado");}
+
+
+
+ String sql="insert into empleado (dni,apellido,nombre,acceso,estado)"
+                    +"values(29584125,'Lopez','Carla','1',true)";
+           PreparedStatement ps= con.prepareStatement(sql);
+           
+           int filas= ps.executeUpdate();
+           if(filas>0){
+           JOptionPane.showMessageDialog(null,"Empleado agregado");}
          
       }catch (ClassNotFoundException ex) {
             JOptionPane.showMessageDialog(null, "Error de carga de base de datos " + ex.getMessage());
@@ -78,6 +88,5 @@ public class Construissa {
             JOptionPane.showMessageDialog(null, "Error en la conexion" + ex.getMessage());
         }
     }
-    //veo si puedo sacar este!!
-    //otra vez
+    //ultimo intento
 }
